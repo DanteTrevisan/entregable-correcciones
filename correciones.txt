@@ -1,0 +1,27 @@
+Repositorio
+La organizacion es correcta
+
+Html
+1. Los alt de las imagenes deben ser textos descriptivos de cada imagen (completado)
+2. Todos los archivos deberian tener el menu de navegacion completo que permita al usuario ir de una sección a otra sin inconveniente ni tener que pasar por inicio antes. (completado)
+3. Todos los archivos html que presentas deben ser navegables entre si (va de la mano con 2)
+4. Div es un tag contenedor, no es para insertar texto (corregido)
+5. Hay tabulaciones desprolijas (no se a que se refiere con esto)
+6.Cada input debe tener el label correspondiente (listo)
+No debe haber uso de br cuando podes usar css para dar esos estilos (corregido)
+Hay rutas de <a> dentro de los archivos dentro de "html" que son incorrectas. Si los archivos estan dentro de una misma carpeta no es correcto dar un paso para atras para ir a la misma carpeta (corregido)
+Cada archivo debe tener un h1 (corregido)
+
+Css
+No debe haber estilos en el html (completo)
+
+Bootstrap
+La aplicacion es correcta
+
+Estructura y diseño
+Este aspecto esta bien desarrollado
+Adaptación responsive
+
+La consigna esta cumplida
+Tene en cuetna que todos los textos y todo el contenido deberia poder visualizarse comodamente en todos los dispositivos. Los horarios en la version mobile no son legibles
+
