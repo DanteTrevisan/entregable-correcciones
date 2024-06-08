@@ -1,0 +1,39 @@
+/*================================================== NAVBAR=============================================*/
+
+.navbar > .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar-nav > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+  
+    > a {
+      text-decoration: none;
+      color: white;
+      font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+      &:hover {
+        text-decoration: none;
+        color: #2E9999;
+      }
+    }
+  }
+  
+  .cabecera-r > a > img {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0px;
+    height: 25px;
+  }
+  
+  .navbar-toggler {
+    background-color: rgba(46, 153, 153, 60%);
+    border: 3px;
+  }
+  
+  .logo-img > img {
+    width: 120px;
+  }

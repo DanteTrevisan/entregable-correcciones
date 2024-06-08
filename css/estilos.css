@@ -1,616 +1,133 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/*================================================== GALERIA CONTACTO PREGUNTAS FRECUENTES=============================================*/
-
-
-.titulo-sec2 {
-    font-size: 55px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-    margin-bottom: 100px;
-}
-
-.titulo-sec22 {
-    font-size: 55px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-    margin-bottom: 80px;
-    margin-top: 80px;
-}
-
-@media (max-width: 600px) {
-    .titulo-sec2 {
-        font-size: 35px;
-        line-height: 35px;
-    }
-}
-
-/*================================================== BOTON FLOTANTE Y CONTACTO=============================================*/
-
-
-.btn-principal,
-.btn-principal:visited,
-.btn-principal:active {
-    color: #FFF;
-    background: #2E9999;
-    border-color: #2E9999;
-    width: 100%;
-    border-radius: 0px;
-}
-
-.btn-principal:focus {
-    color: #FFF;
-    background-color: #2E9999;
-    border-color: #2E9999;
-}
-
-.btn-principal:hover {
-    color: #FFF;
-    background-color: #666;
-    border-color: #666;
-}
-
-/*================================================== CONVENIOS Y BENEFICIOS=============================================*/
-
-
-.titulo-b2 {
-    font-size: 45px;
-    color: #DAFF42;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-}
-
-@media (max-width: 600px) {
-    .titulo-b2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-}
-
-/*================================================== SUB PAGINAS=============================================*/
-
-.socio-seccion {
-    /*min-height:1000px;*/
-    padding-top: 0px;
-    text-align: center;
-    background: #000000;
-}
-
-/*================================================== BARRA HORIZONTAL=============================================*/
-
-
-.m-gris {
-    background: #8C8C8C;
-    margin: 20px;
-    padding: 0px;
-    height: 1px;
-    width: 100%;
-}
-
-
-
-
 /*================================================== NAVBAR=============================================*/
-
-.navbar>.container {
-    flex-direction: column;
-    align-items: flex-start;
+.navbar > .container {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-
-.navbar-nav>li {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0;
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+}
+.navbar-nav > li > a {
+  text-decoration: none;
+  color: white;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar-nav > li > a:hover {
+  text-decoration: none;
+  color: #2E9999;
 }
 
-.navbar-nav>li>a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.navbar-nav>li>a:hover {
-    text-decoration: none;
-    color: #2E9999;
-}
-
-.cabecera-r>a>img {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 0px;
-    height: 25px;
+.cabecera-r > a > img {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 0px;
+  height: 25px;
 }
 
 .navbar-toggler {
-    background-color: rgba(46, 153, 153, 60%);
-    border: 3px;
+  background-color: rgba(46, 153, 153, 0.6);
+  border: 3px;
 }
 
-.logo-img>img{
-    width: 120px;
+.logo-img > img {
+  width: 120px;
 }
 
 /* ############################################################ BOTON FLOTANTE ############################################################################# */
-
 .contenedor-flotante {
-    display: block;
+  display: block;
 }
 
 #toTop {
-
-    position: fixed;
-    bottom: 50%;
-    right: 0px;
-    cursor: pointer;
-    display: none;
-    z-index: 600;
+  position: fixed;
+  bottom: 50%;
+  right: 0px;
+  cursor: pointer;
+  display: none;
+  z-index: 600;
 }
 
 #toTopcel {
-
-    position: fixed;
-    bottom: 0;
-    right: 0px;
-    cursor: pointer;
-    display: none;
-    z-index: 600;
-    width: 100%
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  cursor: pointer;
+  display: none;
+  z-index: 600;
+  width: 100%;
 }
 
-.btn-principal,
-.btn-principal:visited,
-.btn-principal:active {
-    color: #FFF;
-    background: #2E9999;
-    border-color: #2E9999;
-    width: 100%;
-    border-radius: 0px;
+.btn-principal, .btn-principal:visited, .btn-principal:active {
+  color: #fff;
+  background: #2e9999;
+  border-color: #2e9999;
+  width: 100%;
+  border-radius: 0px;
 }
-
 .btn-principal:focus {
-    color: #FFF;
-    background-color: #2E9999;
-    border-color: #2E9999;
+  color: #fff;
+  background-color: #2e9999;
+  border-color: #2e9999;
 }
-
 .btn-principal:hover {
-    color: #FFF;
-    background-color: #666;
-    border-color: #666;
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
 }
 
-/*================================================ FITNESS ===============================================================*/
-
-.fitness-section {
-    min-height: 600px;
-    padding-top: 140px;
-
-    text-align: center;
-    background: #000000;
-    padding-bottom: 140px;
-
-}
-
-
-.titulo-n {
-    font-size: 55px;
-    color: #FFF;
-    text-align: left;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-}
-
+/*=================================================== SECCION FITNESS, SUB PAGINA CONTACTO, SUB PAGINA PREINSCRIPCION==================================================*/
 .parrafo2 {
-    font-size: 14px;
-    text-align: justify;
-    color: #fff;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    margin-top: 20px
+  font-size: 14px;
+  text-align: justify;
+  color: #fff;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 20px;
 }
-
-.parrafo2>li {
-    list-style-type: none;
-}
-
-/* ======================================== VIDEO PROMO ==================================== */
-
-.image-section {
-    height: 750px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.parrafo2 > li {
+  list-style-type: none;
 }
 
 .background-video {
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+  height: 750px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-/* ======================================== CLASES Y ANIMACION ==================================== */
-
-.animacion-seccion {
-    margin-bottom: 0px;
-    text-align: center;
-    background: #000000;
+.fitness-section {
+  min-height: 600px;
+  padding-top: 140px;
+  text-align: center;
+  background: #000000;
+  padding-bottom: 140px;
 }
 
-.clases-seccion {
-    padding-top: 140px;
-    margin-bottom: 0px;
-    text-align: center;
-    background: #000000;
+.titulo-n {
+  font-size: 55px;
+  color: #fff;
+  text-align: left;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
 }
 
-.carousel {
-    position: relative;
-    margin-top: 0px;
+.video-section {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
-.carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: 20px;
-    left: 15%;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-/* ############################################################ GALERIA ############################################################################# */
-
-.galeria {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-.horarios-seccion {
-    padding-top: 140px;
-    margin-bottom: 0px;
-    text-align: center;
-    background: #000000;
-}
-
-.img-carousel img{
-    height: 600px;
-}
-
-/* ############################################################ SECCION 2 ############################################################################# */
-
-
-.imagen2-seccion {
-    background-image: url('../imagenes/instalaciones_01.jpg');
-    background-color: #cccccc;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 140px;
-}
-
-@media (max-width: 900px) {
-    .imagen2-seccion {
-        background-image: url('../imagenes/instalaciones_011.jpg');
-        /* The image used */
-        height: 400px;
-    }
-}
-
-/* ############################################################ CONTACTO ############################################################################# */
-
-.contacto-seccion {
-    min-height: 850px;
-    padding-top: 140px;
-    text-align: center;
-    background: #000000;
-}
-
-.parrafo3 {
-    font-size: 14px;
-    text-align: center;
-    color: #2E9999;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    padding-top: 25px;
-}
-
-.ico {
-    margin-right: 10px;
-}
-
-.ico-menu {
-    text-align: right;
-    color: #15384D;
-}
-
-.contacto-img-redes img{
-    width: 30px;
-    height: 30px
-}
-
-.contacto-main-img img{
-    width: 100%;
-    
-}
-
-#consulta{
-    height: 250px;
-}
-
-/* ############################################################ FOOTER ############################################################################# */
-
-.footer-seccion {
-    min-height: 100px;
-    padding-top: 20px;
-    text-align: center;
-    background: #000000;
-}
-
-.titulo-f {
-    font-size: 15px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 15px;
-    padding-bottom: 18px;
-    padding-top: 10px;
-}
-
-.titulo-f>a {
-    font-size: 15px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 15px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-
-a:link,
-a:visited,
-a:active {
-    text-decoration: none;
-}
-
-/* ############################################################ OTRAS HTML (NO MAIN) ############################################################################# */
-
-.cuerpo {
-    background-color: #000000;
-}
-
-/* ############################################################ BENEFICIOS ############################################################################# */
-
-
-.titulo-beneficios {
-    font-size: 55px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-    margin-top: 75px;
-}
-
-@media (max-width: 600px) {
-    .titulo-beneficios {
-        font-size: 40px;
-        line-height: 50px;
-    }
-}
-
-.titulo-b {
-    font-size: 45px;
-    color: #DAFF42;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-}
-
-@media (max-width: 600px) {
-    .titulo-b {
-        font-size: 30px;
-        line-height: 40px;
-    }
-}
-
-
-
-.beneficios {
-    width: 100%;
-    text-align: center;
-    border-bottom: 3px solid #FFF;
-    font-size: 15px;
-    color: #FFF;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 35px;
-    margin-bottom: 15px;
-}
-
-.beneficios img {
-    width: 80%;
-}
-
-@media (max-width: 600px) {
-    .beneficios {
-        font-size: 12px;
-        line-height: 23px;
-    }
-}
-
-/* ############################################################ CONTACTO ############################################################################# */
-
-
-.form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    color: white;
-    background-color: #242424;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
-    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-}
-
-
-
-/* ############################################################ CONVENIOS ############################################################################# */
-
-
-
-
-.titulo-f2 {
-    font-size: 13px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 15px;
-    padding-bottom: 18px;
-}
-
-/* ############################################################ HORARIOS ############################################################################# */
-
-.table-hover tbody tr th:nth-child(1) {
-    background-color: #2E9999;
-
-}
-
-.table-hover tbody tr th:nth-child(7) {
-    background-color: #2E9999;
-}
-
-.table-hover tbody tr th:nth-child(5) {
-    background-color: #2E9999;
-}
-
-
-.img-horarios{
-    width: 100%;
-}
-
-/* ############################################################ PREGUNTAS FRECUENTES ############################################################################# */
-
-
-.titulo-pf {
-    font-size: 15px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 15px;
-    padding-bottom: 18px;
-    padding-top: 10px;
-    background: #000000;
-    border-bottom: 1px solid #FFF;
-}
-
-.titulo-pf>a {
-    font-size: 15px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 15px;
-    padding-bottom: 18px;
-    padding-top: 10px;
-    background: #000000;
-    border-bottom: 1px solid #FFF;
-}
-
-.accordion-body {
-    background-color: #000000;
-    color: #FFF;
-}
-
-/* ############################################################ PREINSCRIPCION ############################################################################# */
-
-
-.titulo2 {
-    font-size: 15px;
-    color: #FFF;
-    text-align: left;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 15px;
-}
-
-.parrafo {
-    font-size: 14px;
-    text-align: justify;
-    color: #666;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-}
-
-
-textarea::placeholder {
-    opacity: 0.5;
-    color: white;
-}
-
-img {
-    color: #FFF;
-}
+/*# sourceMappingURL=estilos.css.map */
