@@ -1,6 +1,16 @@
 $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
 @import "../mixins/mixins.scss";
 
-@include template_titulos_parrafos(14px, #666, justify, $fuente, normal,300, ".parrafo", 0, null);
+@include template_titulos_parrafos(
+  14px,
+  #666,
+  justify,
+  $fuente,
+  normal,
+  300,
+  ".parrafo",
+  0,
+  null
+);

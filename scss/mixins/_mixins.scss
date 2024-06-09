@@ -9,24 +9,23 @@
   $fuente_weight,
   $clase,
   $hayExtras,
-  $pseudo:null,
-  $propiedad1:null,
-  $valor_propiedad1:null,
-  $propiedad2:null,
-  $valor_propiedad2:null,
-  $propiedad3:null,
-  $valor_propiedad3:null,
-  $propiedad4:null,
-  $valor_propiedad4:null,
-  $propiedad5:null,
-  $valor_propiedad5:null,
-  $propiedad6:null,
-  $valor_propiedad6:null,
-  $propiedad7:null,
-  $valor_propiedad7:null,
-  $propiedad8:null,
-  $valor_propiedad8:null,
-  
+  $pseudo: null,
+  $propiedad1: null,
+  $valor_propiedad1: null,
+  $propiedad2: null,
+  $valor_propiedad2: null,
+  $propiedad3: null,
+  $valor_propiedad3: null,
+  $propiedad4: null,
+  $valor_propiedad4: null,
+  $propiedad5: null,
+  $valor_propiedad5: null,
+  $propiedad6: null,
+  $valor_propiedad6: null,
+  $propiedad7: null,
+  $valor_propiedad7: null,
+  $propiedad8: null,
+  $valor_propiedad8: null
 ) {
   @if $hayExtras == 0 {
     #{$clase} {
@@ -82,8 +81,8 @@
       #{$propiedad2}: $valor_propiedad2;
       #{$propiedad3}: $valor_propiedad3;
       #{$propiedad4}: $valor_propiedad4;
-    } 
-  }@else if $hayExtras == 7 {
+    }
+  } @else if $hayExtras == 7 {
     #{$clase} {
       font-size: $fuente_size;
       color: $fuente_color;
@@ -98,7 +97,7 @@
       #{$propiedad5}: $valor_propiedad5;
       #{$propiedad6}: $valor_propiedad6;
       #{$propiedad7}: $valor_propiedad7;
-    } 
+    }
   } @else if $hayExtras == 8 {
     #{$clase} {
       font-size: $fuente_size;
@@ -115,7 +114,7 @@
       #{$propiedad6}: $valor_propiedad6;
       #{$propiedad7}: $valor_propiedad7;
       #{$propiedad8}: $valor_propiedad8;
-    } 
+    }
   } @else {
     #{$clase}:#{$pseudo} {
       font-size: $fuente_size;

@@ -9,8 +9,41 @@
 @include toTop_toTopcel(fixed, 50%, 0px, pointer, none, 600, "#toTop", false);
 @include toTop_toTopcel(fixed, 0, 0px, pointer, none, 600, "#toTopcel", true);
 
-@include btn_principal(#fff, #2e9999, #2e9999,".btn-principal", 0, null, width, border-radius, 100%, 0px);
-@include btn_principal(#fff, #2e9999, #2e9999, ".btn-principal", 1,  "visited", width, border-radius, 100%, 0px);
-@include btn_principal(#fff, #2e9999, #2e9999, ".btn-principal", 1, "active", width, border-radius, 100%, 0px);
+@include btn_principal(
+  #fff,
+  #2e9999,
+  #2e9999,
+  ".btn-principal",
+  0,
+  null,
+  width,
+  border-radius,
+  100%,
+  0px
+);
+@include btn_principal(
+  #fff,
+  #2e9999,
+  #2e9999,
+  ".btn-principal",
+  1,
+  "visited",
+  width,
+  border-radius,
+  100%,
+  0px
+);
+@include btn_principal(
+  #fff,
+  #2e9999,
+  #2e9999,
+  ".btn-principal",
+  1,
+  "active",
+  width,
+  border-radius,
+  100%,
+  0px
+);
 @include btn_principal(#fff, #2e9999, #2e9999, ".btn-principal", 2, "focus");
 @include btn_principal(#fff, #666, #666, ".btn-principal", 2, "hover");

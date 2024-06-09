@@ -1,15 +1,41 @@
 $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
 @import "../mixins/mixins.scss";
 
-@include template_titulos_parrafos(15px, #FFF, center, $fuente, italic,900, ".titulo-pf", 8, null, text-transform, uppercase,line-height, 15px,padding-bottom, 18px,padding-top, 10px, background-color, #000000, border-bottom-width, 1px,border-bottom-style, solid,border-bottom-color, #FFF);
+@include template_titulos_parrafos(
+  15px,
+  #fff,
+  center,
+  $fuente,
+  italic,
+  900,
+  ".titulo-pf",
+  8,
+  null,
+  text-transform,
+  uppercase,
+  line-height,
+  15px,
+  padding-bottom,
+  18px,
+  padding-top,
+  10px,
+  background-color,
+  #000000,
+  border-bottom-width,
+  1px,
+  border-bottom-style,
+  solid,
+  border-bottom-color,
+  #fff
+);
 
 .titulo-pf > a {
-    @extend .titulo-pf;
-  }
-  
-  .accordion-body {
-    background-color: #000000;
-    color: #FFF;
-  }
+  @extend .titulo-pf;
+}
+
+.accordion-body {
+  background-color: #000000;
+  color: #fff;
+}

@@ -1,9 +1,8 @@
 @import "../mixins/mixins.scss";
 
 $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 /* ======================================== SECCION FITNESS ==================================== */
-
 
 .fitness-section {
   min-height: 600px;
@@ -13,10 +12,22 @@ $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
   padding-bottom: 140px;
 }
 
-@include template_titulos_parrafos(55px, #fff, left, $fuente, normal,900, ".titulo-n", 2, null, "text-transform", uppercase,"line-height", 55px);
+@include template_titulos_parrafos(
+  55px,
+  #fff,
+  left,
+  $fuente,
+  normal,
+  900,
+  ".titulo-n",
+  2,
+  null,
+  "text-transform",
+  uppercase,
+  "line-height",
+  55px
+);
 
 .parrafo2 > li {
   list-style-type: none;
 }
-
-

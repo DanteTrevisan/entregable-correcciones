@@ -1,16 +1,18 @@
 .horarios-seccion {
-    padding-top: 140px;
-    margin-bottom: 0px;
-    text-align: center;
-    background: #000000;
-  }
+  padding-top: 140px;
+  margin-bottom: 0px;
+  text-align: center;
+  background: #000000;
+}
 
-  .table-hover tbody tr th {
-    &:nth-child(1), &:nth-child(7), &:nth-child(5) {
-      background-color: #2E9999;
-    }
+.table-hover tbody tr th {
+  &:nth-child(1),
+  &:nth-child(7),
+  &:nth-child(5) {
+    background-color: #2e9999;
   }
-  
-  .img-horarios {
-    width: 100%;
-  }
+}
+
+.img-horarios {
+  width: 100%;
+}

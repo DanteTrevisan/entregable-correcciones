@@ -5,7 +5,23 @@ $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
 
 @import "../mixins/mixins.scss";
 
-@include template_titulos_parrafos(55px, #fff,center,$fuente, normal,900px, ".titulo-sec2", 3, null,  "text-transform", uppercase,"line-height", 55px, "margin-bottom", 100px);
+@include template_titulos_parrafos(
+  55px,
+  #fff,
+  center,
+  $fuente,
+  normal,
+  900px,
+  ".titulo-sec2",
+  3,
+  null,
+  "text-transform",
+  uppercase,
+  "line-height",
+  55px,
+  "margin-bottom",
+  100px
+);
 
 .galeria {
   margin-right: 0px;
@@ -22,5 +38,3 @@ $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
 .img-carousel img {
   height: 600px;
 }
-
-
