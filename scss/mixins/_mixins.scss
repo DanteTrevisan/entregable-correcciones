@@ -24,6 +24,8 @@
   $valor_propiedad6:null,
   $propiedad7:null,
   $valor_propiedad7:null,
+  $propiedad8:null,
+  $valor_propiedad8:null,
   
 ) {
   @if $hayExtras == 0 {
@@ -96,6 +98,23 @@
       #{$propiedad5}: $valor_propiedad5;
       #{$propiedad6}: $valor_propiedad6;
       #{$propiedad7}: $valor_propiedad7;
+    } 
+  } @else if $hayExtras == 8 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+      #{$propiedad4}: $valor_propiedad4;
+      #{$propiedad5}: $valor_propiedad5;
+      #{$propiedad6}: $valor_propiedad6;
+      #{$propiedad7}: $valor_propiedad7;
+      #{$propiedad8}: $valor_propiedad8;
     } 
   } @else {
     #{$clase}:#{$pseudo} {

@@ -138,7 +138,7 @@
   padding-top: 10px;
 }
 
-/*=================================================== SUBA PAGINA BENEFICIOS Y SUB PAGINA CONVENIOS ==================================================*/
+/*=================================================== SUB PAGINA BENEFICIOS Y SUB PAGINA CONVENIOS ==================================================*/
 .titulo-beneficios {
   font-size: 55px;
   color: #fff;
@@ -178,6 +178,20 @@
   margin-bottom: 15px;
 }
 
+/*=================================================== SUB PAGINAS CONTACTO HORARIOS PREGUNTAS-FRECUENTES PREINSCRIPCION QUIENES-SOMOS ==================================================*/
+.titulo-sec22 {
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 80px;
+  text-transform: uppercase;
+  line-height: 55px;
+  margin-bottom: 80px;
+}
+
 /* ======================================== VIDEO PROMOCION ==================================== */
 .background-video {
   height: 750px;
@@ -204,6 +218,35 @@
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.socio-seccion {
+  /*min-height:1000px;*/
+  padding-top: 0px;
+  text-align: center;
+  background: #000000;
+}
+
+.m-gris {
+  background: #8C8C8C;
+  margin: 20px;
+  padding: 0px;
+  height: 1px;
+  width: 100%;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: white;
+  background-color: #242424;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
 /*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
@@ -423,6 +466,76 @@ a:link, a:visited, a:active {
 
 .beneficios img {
   width: 80%;
+}
+
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+.titulo-f2 {
+  font-size: 13px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 15px;
+  padding-bottom: 18px;
+}
+
+.horarios-seccion {
+  padding-top: 140px;
+  margin-bottom: 0px;
+  text-align: center;
+  background: #000000;
+}
+
+.table-hover tbody tr th:nth-child(1), .table-hover tbody tr th:nth-child(7), .table-hover tbody tr th:nth-child(5) {
+  background-color: #2E9999;
+}
+
+.img-horarios {
+  width: 100%;
+}
+
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+.titulo-pf, .titulo-pf > a {
+  font-size: 15px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 15px;
+  padding-bottom: 18px;
+  padding-top: 10px;
+  background-color: #000000;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFF;
+}
+
+.accordion-body {
+  background-color: #000000;
+  color: #FFF;
+}
+
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+.parrafo {
+  font-size: 14px;
+  color: #666;
+  text-align: justify;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=estilos.css.map */

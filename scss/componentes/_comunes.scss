@@ -11,11 +11,15 @@ $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
 
 @include template_titulos_parrafos(15px, #fff, center, $fuente, italic,900, ".titulo-f", 4, null, "text-transform", uppercase,line-height, 15px,padding-bottom, 18px,padding-top, 10px);
 
-/*=================================================== SUBA PAGINA BENEFICIOS Y SUB PAGINA CONVENIOS ==================================================*/
+/*=================================================== SUB PAGINA BENEFICIOS Y SUB PAGINA CONVENIOS ==================================================*/
 
 @include template_titulos_parrafos(55px, #fff, center, $fuente, italic,900, ".titulo-beneficios", 3, null, "text-transform", uppercase,line-height, 55px,margin-top, 75px);
 @include template_titulos_parrafos(45px, #DAFF42, center, $fuente, italic,900, ".titulo-b2", 2, null, text-transform, uppercase,line-height, 55px);
 @include template_titulos_parrafos(15px, #fff, center, $fuente, italic,bold, ".beneficios", 7, null, width, 100%,border-bottom-width, 3px,border-bottom-style, solid,border-bottom-color, #fff,text-transform, uppercase,line-height, 35px,margin-bottom, 15px);
+
+/*=================================================== SUB PAGINAS CONTACTO HORARIOS PREGUNTAS-FRECUENTES PREINSCRIPCION QUIENES-SOMOS ==================================================*/
+
+@include template_titulos_parrafos(55px, #fff, center, $fuente, normal,900, ".titulo-sec22", 4, null, margin-top, 80px,text-transform, uppercase,line-height, 55px,margin-bottom, 80px);
 
 
 
