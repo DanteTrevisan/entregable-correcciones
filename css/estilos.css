@@ -1,3 +1,13 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cuerpo {
+  background-color: #000000;
+}
+
 /*================================================== NAVBAR=============================================*/
 .navbar > .container {
   flex-direction: column;
@@ -99,18 +109,73 @@
   border-color: #666;
 }
 
-/*=================================================== SECCION FITNESS, SUB PAGINA CONTACTO, SUB PAGINA PREINSCRIPCION==================================================*/
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+/*=================================================== SECCION FITNESS, SUB PAGINA CONTACTO, SUB PAGINA PREINSCRIPCION, SUB PAGINA QUIENES SOMOS==================================================*/
 .parrafo2 {
   font-size: 14px;
-  text-align: justify;
   color: #fff;
+  text-align: justify;
   font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 300;
   margin-top: 20px;
 }
-.parrafo2 > li {
-  list-style-type: none;
+
+/*=================================================== FOOTER MAIN Y SUBPAGINAS ==================================================*/
+.titulo-f, .titulo-f > a {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 15px;
+  padding-bottom: 18px;
+  padding-top: 10px;
+}
+
+/*=================================================== SUBA PAGINA BENEFICIOS Y SUB PAGINA CONVENIOS ==================================================*/
+.titulo-beneficios {
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
+  margin-top: 75px;
+}
+
+.titulo-b2 {
+  font-size: 45px;
+  color: #DAFF42;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+
+.beneficios {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  width: 100%;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  text-transform: uppercase;
+  line-height: 35px;
+  margin-bottom: 15px;
 }
 
 /* ======================================== VIDEO PROMOCION ==================================== */
@@ -159,6 +224,36 @@
     height: 400px;
   }
 }
+/* ############################################################ MEDIA QUERY COMUNES BENEFICIOS Y CONVENIOS ############################################################################# */
+@media (max-width: 600px) {
+  .titulo-beneficios {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .titulo-b2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .beneficios {
+    font-size: 12px;
+    line-height: 23px;
+  }
+}
+/* ############################################################ MEDIA QUERY BENEFICIOS-TITULO-B ############################################################################# */
+@media (max-width: 600px) {
+  .titulo-b {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
 /*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
 /*======================================================== MIXINS BOTON FLOTANTE==============================================*/
 /*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
@@ -181,6 +276,10 @@
   font-weight: 900;
   text-transform: uppercase;
   line-height: 55px;
+}
+
+.parrafo2 > li {
+  list-style-type: none;
 }
 
 /* ======================================== VIDEO PROMOCION ==================================== */
@@ -214,7 +313,7 @@
 /*======================================================== MEDIA QUERIES =====================================================*/
 .titulo-sec2 {
   font-size: 55px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -238,6 +337,92 @@
 
 .img-carousel img {
   height: 600px;
+}
+
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+/*========================================== CONTACTO MAIN==========================================*/
+.contacto-seccion {
+  min-height: 850px;
+  padding-top: 140px;
+  text-align: center;
+  background: #000000;
+}
+
+.parrafo3 {
+  font-size: 14px;
+  color: #2E9999;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+.ico {
+  margin-right: 10px;
+}
+
+.ico-menu {
+  text-align: right;
+  color: #15384D;
+}
+
+.contacto-img-redes img {
+  width: 30px;
+  height: 30px;
+}
+
+.contacto-main-img img {
+  width: 100%;
+}
+
+#consulta {
+  height: 250px;
+}
+
+/* ############################################################ SECCION 2 ############################################################################# */
+.imagen2-seccion {
+  background-image: url("../../imagenes/instalaciones_01.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 140px;
+}
+
+/*====================================== FOOTER ======================================*/
+.footer-seccion {
+  min-height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  background: #000000;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+.titulo-b {
+  font-size: 45px;
+  color: #DAFF42;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+
+.beneficios img {
+  width: 80%;
 }
 
 /*# sourceMappingURL=estilos.css.map */

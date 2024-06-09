@@ -1,41 +1,114 @@
 /*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
-@mixin template_titulo_sec(
-  $font_size,
-  $color,
+
+@mixin template_titulos_parrafos(
+  $fuente_size,
+  $fuente_color,
   $texto_align,
-  $font_family,
-  $font_estilo,
+  $fuente_family,
+  $fuente_style,
   $fuente_weight,
-  $texto_transform,
-  $linea_height,
-  $margen_bottom,
+  $clase,
   $hayExtras,
-  $clase
+  $pseudo:null,
+  $propiedad1:null,
+  $valor_propiedad1:null,
+  $propiedad2:null,
+  $valor_propiedad2:null,
+  $propiedad3:null,
+  $valor_propiedad3:null,
+  $propiedad4:null,
+  $valor_propiedad4:null,
+  $propiedad5:null,
+  $valor_propiedad5:null,
+  $propiedad6:null,
+  $valor_propiedad6:null,
+  $propiedad7:null,
+  $valor_propiedad7:null,
+  
 ) {
-  @if $hayExtras {
+  @if $hayExtras == 0 {
     #{$clase} {
-      font-size: $font_size;
-      color: $color;
+      font-size: $fuente_size;
+      color: $fuente_color;
       text-align: $texto_align;
-      font-family: $font_family;
-      font-style: $font_estilo;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
       font-weight: $fuente_weight;
-      text-transform: $texto_transform;
-      line-height: $linea_height;
-      margin-bottom: $margen_bottom;
-      margin-top: 80px;
     }
-  } @else {
+  } @else if $hayExtras == 1 {
     #{$clase} {
-      font-size: $font_size;
-      color: $color;
+      font-size: $fuente_size;
+      color: $fuente_color;
       text-align: $texto_align;
-      font-family: $font_family;
-      font-style: $font_estilo;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
       font-weight: $fuente_weight;
-      text-transform: $texto_transform;
-      line-height: $linea_height;
-      margin-bottom: $margen_bottom;
+      #{$propiedad1}: $valor_propiedad1;
+    }
+  } @else if $hayExtras == 2 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+    }
+  } @else if $hayExtras == 3 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+    }
+  } @else if $hayExtras == 4 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+      #{$propiedad4}: $valor_propiedad4;
+    } 
+  }@else if $hayExtras == 7 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+      #{$propiedad4}: $valor_propiedad4;
+      #{$propiedad5}: $valor_propiedad5;
+      #{$propiedad6}: $valor_propiedad6;
+      #{$propiedad7}: $valor_propiedad7;
+    } 
+  } @else {
+    #{$clase}:#{$pseudo} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+      #{$propiedad4}: $valor_propiedad4;
     }
   }
 }

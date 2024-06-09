@@ -1,6 +1,7 @@
+@import "componentes/reset.scss";
 @import "componentes/navbar.scss";
 @import "componentes/botones.scss";
-@import "componentes/parrafo2.scss";
+@import "componentes/comunes.scss";
 @import "componentes/video.scss";
 @import "componentes/carrusel.scss";
 @import "media-queries/media-queries.scss";
@@ -9,3 +10,7 @@
 @import "secciones-main/video-promo.scss";
 @import "secciones-main/clases-animacion.scss";
 @import "secciones-main/galeria.scss";
+@import "secciones-main/contacto.scss";
+@import "secciones-main/seccion2.scss";
+@import "secciones-main/footer.scss";
+@import "sub-paginas/beneficios.scss";

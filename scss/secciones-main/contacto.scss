@@ -1,0 +1,35 @@
+@import "../mixins/mixins.scss";
+$fuente: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+/*========================================== CONTACTO MAIN==========================================*/
+.contacto-seccion {
+    min-height: 850px;
+    padding-top: 140px;
+    text-align: center;
+    background: #000000;
+}
+
+@include template_titulos_parrafos(14px, #2E9999, center, $fuente, normal, 300, ".parrafo3", 1,null,"padding-top", 25px);
+
+.ico {
+    margin-right: 10px;
+}
+
+.ico-menu {
+    text-align: right;
+    color: #15384D;
+}
+
+.contacto-img-redes img{
+    width: 30px;
+    height: 30px
+}
+
+.contacto-main-img img{
+    width: 100%;
+    
+}
+
+#consulta{
+    height: 250px;
+}
