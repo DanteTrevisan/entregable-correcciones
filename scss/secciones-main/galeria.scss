@@ -1,0 +1,26 @@
+/* ############################################################ GALERIA ############################################################################# */
+
+$fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
+  "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+@import "../mixins/mixins.scss";
+
+@include template_titulo_sec(55px, #FFF, center, $fuente, normal, 900px, uppercase, 55px, 100px, false, ".titulo-sec2");
+
+.galeria {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.horarios-seccion {
+  padding-top: 140px;
+  margin-bottom: 0px;
+  text-align: center;
+  background: #000000;
+}
+
+.img-carousel img {
+  height: 600px;
+}
+
+

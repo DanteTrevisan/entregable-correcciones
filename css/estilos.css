@@ -35,7 +35,11 @@
   width: 120px;
 }
 
-/* ############################################################ BOTON FLOTANTE ############################################################################# */
+/* ############################################################ BOTON FLOTANTE Y BOTONES DE SECCIONES CONTACTO Y PREINSCRIPCION ############################################################################# */
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
 .contenedor-flotante {
   display: block;
 }
@@ -59,18 +63,36 @@
   width: 100%;
 }
 
-.btn-principal, .btn-principal:visited, .btn-principal:active {
+.btn-principal {
   color: #fff;
-  background: #2e9999;
+  background-color: #2e9999;
   border-color: #2e9999;
   width: 100%;
   border-radius: 0px;
 }
+
+.btn-principal:visited {
+  color: #fff;
+  background-color: #2e9999;
+  border-color: #2e9999;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.btn-principal:active {
+  color: #fff;
+  background-color: #2e9999;
+  border-color: #2e9999;
+  width: 100%;
+  border-radius: 0px;
+}
+
 .btn-principal:focus {
   color: #fff;
   background-color: #2e9999;
   border-color: #2e9999;
 }
+
 .btn-principal:hover {
   color: #fff;
   background-color: #666;
@@ -91,6 +113,7 @@
   list-style-type: none;
 }
 
+/* ======================================== VIDEO PROMOCION ==================================== */
 .background-video {
   height: 750px;
   background-position: center;
@@ -99,6 +122,48 @@
   background-attachment: fixed;
 }
 
+.carousel {
+  position: relative;
+  margin-top: 0px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+/*================================================== MEDIA QUERY DE GALERIA ==================================== */
+@media (max-width: 600px) {
+  .titulo-sec2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+/* ############################################################ MEDIA QUERY SECCION 2 ############################################################################# */
+@media (max-width: 900px) {
+  .imagen2-seccion {
+    background-image: url("../../imagenes/instalaciones_011.jpg");
+    height: 400px;
+  }
+}
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+/* ======================================== SECCION FITNESS ==================================== */
 .fitness-section {
   min-height: 600px;
   padding-top: 140px;
@@ -118,6 +183,7 @@
   line-height: 55px;
 }
 
+/* ======================================== VIDEO PROMOCION ==================================== */
 .video-section {
   height: 100vh;
   width: 100vw;
@@ -128,6 +194,50 @@
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+/* ======================================== CLASES Y ANIMACION ==================================== */
+.animacion-seccion, .clases-seccion {
+  margin-bottom: 0px;
+  text-align: center;
+  background: #000000;
+}
+
+.clases-seccion {
+  padding-top: 140px;
+}
+
+/* ############################################################ GALERIA ############################################################################# */
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+/*======================================================== MEDIA QUERIES =====================================================*/
+.titulo-sec2 {
+  font-size: 55px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 900px;
+  text-transform: uppercase;
+  line-height: 55px;
+  margin-bottom: 100px;
+}
+
+.galeria {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.horarios-seccion {
+  padding-top: 140px;
+  margin-bottom: 0px;
+  text-align: center;
+  background: #000000;
+}
+
+.img-carousel img {
+  height: 600px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

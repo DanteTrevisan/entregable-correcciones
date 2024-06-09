@@ -1,0 +1,132 @@
+/*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
+@mixin template_titulo_sec(
+  $font_size,
+  $color,
+  $texto_align,
+  $font_family,
+  $font_estilo,
+  $fuente_weight,
+  $texto_transform,
+  $linea_height,
+  $margen_bottom,
+  $hayExtras,
+  $clase
+) {
+  @if $hayExtras {
+    #{$clase} {
+      font-size: $font_size;
+      color: $color;
+      text-align: $texto_align;
+      font-family: $font_family;
+      font-style: $font_estilo;
+      font-weight: $fuente_weight;
+      text-transform: $texto_transform;
+      line-height: $linea_height;
+      margin-bottom: $margen_bottom;
+      margin-top: 80px;
+    }
+  } @else {
+    #{$clase} {
+      font-size: $font_size;
+      color: $color;
+      text-align: $texto_align;
+      font-family: $font_family;
+      font-style: $font_estilo;
+      font-weight: $fuente_weight;
+      text-transform: $texto_transform;
+      line-height: $linea_height;
+      margin-bottom: $margen_bottom;
+    }
+  }
+}
+
+/*======================================================== MIXINS BOTON FLOTANTE==============================================*/
+
+@mixin toTop_toTopcel(
+  $position,
+  $bottom,
+  $right,
+  $cursor,
+  $display,
+  $z_index,
+  $id,
+  $hayExtras
+) {
+  @if $hayExtras {
+    #{$id} {
+      position: $position;
+      bottom: $bottom;
+      right: $right;
+      cursor: $cursor;
+      display: $display;
+      z-index: $z_index;
+      width: 100%;
+    }
+  } @else {
+    #{$id} {
+      position: $position;
+      bottom: $bottom;
+      right: $right;
+      cursor: $cursor;
+      display: $display;
+      z-index: $z_index;
+    }
+  }
+}
+
+/*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
+
+@mixin btn_principal(
+  $color_b,
+  $background_color,
+  $border_color,
+  $clase,
+  $hayExtras,
+  $pseudo: null,
+  $propiedad1: null,
+  $propiedad2: null,
+  $valor_propiedad1: null,
+  $valor_propiedad2: null
+) {
+  @if $hayExtras == 0 {
+    #{$clase} {
+      color: $color_b;
+      background-color: $background_color;
+      border-color: $border_color;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+    }
+  } @else if $hayExtras == 1 {
+    #{$clase}:#{$pseudo} {
+      color: $color_b;
+      background-color: $background_color;
+      border-color: $border_color;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+    }
+  } @else {
+    #{$clase}:#{$pseudo} {
+      color: $color_b;
+      background-color: $background_color;
+      border-color: $border_color;
+    }
+  }
+}
+
+/*======================================================== MEDIA QUERIES =====================================================*/
+
+@mixin media-query(
+  $max_width,
+  $propiedad1,
+  $propiedad2,
+  $valor_propiedad1,
+  $valor_propiedad2,
+  $clase
+) {
+  @media (max-width: $max_width) {
+    #{$clase} {
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+    }
+  }
+}
