@@ -208,10 +208,10 @@
 
 @mixin media-query(
   $max_width,
-  $propiedad1,
-  $propiedad2,
-  $valor_propiedad1,
-  $valor_propiedad2,
+  $propiedad1:null,
+  $propiedad2:null,
+  $valor_propiedad1:null,
+  $valor_propiedad2:null,
   $clase
 ) {
   @media (max-width: $max_width) {

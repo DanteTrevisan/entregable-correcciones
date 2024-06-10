@@ -8,7 +8,36 @@
   background-color: #000000;
 }
 
+@keyframes animacion1 {
+  0%, 100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(-6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+}
 /*================================================== NAVBAR=============================================*/
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5411764706);
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 1;
+  border-bottom: 1px solid #2e9999;
+}
+
 .navbar > .container {
   flex-direction: column;
   align-items: flex-start;
@@ -45,6 +74,23 @@
   width: 120px;
 }
 
+/*@media (min-width: 767px) {
+  .navbar-collapse {
+      padding: 0;
+  }
+}*/
+/*@media(min-width: 767px){
+  .navbar{
+    padding: 20px 0;
+    background: #0000008a;
+    transition-behavior: normal, normal;
+    transition-duration: .5s, .5s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+    transition-property: background, padding ;
+
+  }
+}*/
 /* ############################################################ BOTON FLOTANTE Y BOTONES DE SECCIONES CONTACTO Y PREINSCRIPCION ############################################################################# */
 /*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
 /*======================================================== MIXINS BOTON FLOTANTE==============================================*/
@@ -220,6 +266,14 @@
   font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.carousel-control-prev {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.carousel-control-next {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0, rgba(0, 0, 0, 0.5) 100%);
+}
+
 .socio-seccion {
   /*min-height:1000px;*/
   padding-top: 0px;
@@ -299,6 +353,33 @@
     line-height: 40px;
   }
 }
+/* ############################################################ MEDIA QUERY CONTAINER ############################################################################# */
+/*@include media-query(
+    1200px,
+    "width",
+    null,
+    1170px,
+    null,
+    ".container"
+);
+
+@include media-query(
+    992px,
+    "width",
+    null,
+    970px,
+    null,
+    ".container"
+);
+
+@include media-query(
+    768px,
+    "width",
+    null,
+    750px,
+    null,
+    ".container"
+);*/
 /*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/
 /*======================================================== MIXINS BOTON FLOTANTE==============================================*/
 /*======================================================== MIXIN BTN PRINCIPAL ===============================================*/
@@ -472,6 +553,16 @@ a:link, a:visited, a:active {
 
 .beneficios img {
   width: 80%;
+}
+
+.sombra {
+  box-shadow: -7px 15px 306px 28px rgba(46, 153, 153, 0.41);
+  -webkit-box-shadow: -7px 15px 306px 28px rgba(46, 153, 153, 0.41);
+  -moz-box-shadow: -7px 15px 306px 28px rgba(46, 153, 153, 0.41);
+}
+
+.animacion:hover {
+  animation: animacion1 2s ease 0s 1 normal forwards;
 }
 
 /*========================================= MIXINS SECCION GALERIA EN MAIN=================================*/

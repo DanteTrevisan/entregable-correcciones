@@ -17,3 +17,15 @@
   font-family: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
     "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+.carousel-control-prev{
+  background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+  
+}
+
+.carousel-control-next{
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+}
+
+
+

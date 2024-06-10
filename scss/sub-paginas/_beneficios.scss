@@ -22,3 +22,13 @@ $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
 .beneficios img {
   width: 80%;
 }
+
+.sombra {
+  box-shadow: -7px 15px 306px 28px rgba(46, 153, 153, 0.41);
+  -webkit-box-shadow: -7px 15px 306px 28px rgba(46, 153, 153, 0.41);
+  -moz-box-shadow: -7px 15px 306px 28px rgba(46, 153, 153, 0.41);
+}
+
+.animacion:hover{
+  animation: animacion1 2s ease 0s 1 normal forwards;
+}
