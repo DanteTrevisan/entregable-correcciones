@@ -26,15 +26,14 @@
   }
 }
 
-@keyframes loader{
-	0%{
-		transform: translateY(-50px) scale(.5);
-		border-radius: 50%;
-	}
+@keyframes loader {
+  0% {
+    transform: translateY(-50px) scale(0.5);
+    border-radius: 50%;
+  }
 
-	100%{
-		transform: translateY(50px) scale(1);
-		border-radius: 0%;
-
-	}
+  100% {
+    transform: translateY(50px) scale(1);
+    border-radius: 0%;
+  }
 }

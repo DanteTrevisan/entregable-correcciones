@@ -3,21 +3,7 @@ $fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
 
 @import "../mixins/mixins.scss";
 
-@include template_titulos_parrafos(
-  45px,
-  #daff42,
-  center,
-  $fuente,
-  normal,
-  900,
-  ".titulo-b",
-  2,
-  null,
-  text-transform,
-  uppercase,
-  line-height,
-  55px
-);
+@include template_titulos_parrafos(45px,#daff42,center,$fuente,normal,900,".titulo-b",2,null,text-transform,uppercase,line-height,55px);
 
 .beneficios img {
   width: 80%;

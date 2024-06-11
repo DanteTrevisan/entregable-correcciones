@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-/*================================================== GALERIA CONTACTO PREGUNTAS FRECUENTES=============================================*/
+/*================================================== GALERIA CONTACTO PREGUNTAS FRECUENTES ESTO ES PARA PROBAR SI IGNORA EL ARCHIVO=============================================*/
 
 
 .titulo-sec2 {
@@ -139,7 +139,8 @@
     padding-right: 10px;
     margin-right: 0px;
     height: 25px;
-}
+}  
+
 
 .navbar-toggler {
     background-color: rgba(46, 153, 153, 60%);

@@ -95,12 +95,24 @@
 }
 
 /*================================================== NAVBAR=============================================*/
+/*.scroll{
+  position: relative;
+  overflow: auto;
+}*/
 .navbar {
+  position: relative;
   background-color: rgba(0, 0, 0, 0.5411764706);
   font-weight: bold;
   font-size: 14px;
   opacity: 1;
   border-bottom: 1px solid #2e9999;
+}
+
+.fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .navbar > .container {
