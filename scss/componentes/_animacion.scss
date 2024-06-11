@@ -1,4 +1,4 @@
-@keyframes animacion1 {
+@keyframes animacionSacudon {
   0%,
   100% {
     transform: translateX(0%);
@@ -25,6 +25,19 @@
     transform: translateX(-6px) rotate(1.2deg);
   }
 }
+
+@keyframes scaleNavbar{
+  0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+
+
+}
+
 
 @keyframes loader {
   0% {

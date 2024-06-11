@@ -1,8 +1,5 @@
+@import "_animacion.scss";
 /*================================================== NAVBAR=============================================*/
-/*.scroll{
-  position: relative;
-  overflow: auto;
-}*/
 
 .navbar {
   position: relative;
@@ -39,10 +36,12 @@
       "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
     &:hover {
+      animation: scaleNavbar 2s ease 0s 1 normal forwards;
       text-decoration: none;
       color: #2e9999;
     }
   }
+  
 }
 
 .cabecera-r > a > img {
