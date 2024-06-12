@@ -1,0 +1,12 @@
+/* ======================================== CLASES Y ANIMACION ==================================== */
+
+.animacion-seccion {
+  margin-bottom: 0px;
+  text-align: center;
+  background: #000000;
+}
+
+.clases-seccion {
+  @extend .animacion-seccion;
+  padding-top: 140px;
+}

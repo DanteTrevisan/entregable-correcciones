@@ -1,0 +1,33 @@
+@import "../mixins/mixins.scss";
+
+$fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
+  "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+/* ======================================== SECCION FITNESS ==================================== */
+
+.fitness-section {
+  min-height: 600px;
+  padding-top: 140px;
+  text-align: center;
+  background: #000000;
+  padding-bottom: 140px;
+}
+
+@include template_titulos_parrafos(
+  55px,
+  #fff,
+  left,
+  $fuente,
+  normal,
+  900,
+  ".titulo-n",
+  2,
+  null,
+  "text-transform",
+  uppercase,
+  "line-height",
+  55px
+);
+
+.parrafo2 > li {
+  list-style-type: none;
+}

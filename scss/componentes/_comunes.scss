@@ -1,0 +1,123 @@
+$fuente: "Darker Grotesque", "Lucida Sans", "Lucida Sans Regular",
+  "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+@import "../mixins/mixins.scss";
+/*=================================================== SECCION FITNESS, SUB PAGINA CONTACTO, SUB PAGINA PREINSCRIPCION, SUB PAGINA QUIENES SOMOS==================================================*/
+
+@include template_titulos_parrafos(
+  14px,
+  #fff,
+  justify,
+  $fuente,
+  normal,
+  300,
+  ".parrafo2",
+  1,
+  null,
+  "margin-top",
+  20px
+);
+
+/*=================================================== FOOTER MAIN Y SUBPAGINAS ==================================================*/
+
+@include template_titulos_parrafos(
+  15px,
+  #fff,
+  center,
+  $fuente,
+  italic,
+  900,
+  ".titulo-f",
+  4,
+  null,
+  "text-transform",
+  uppercase,
+  line-height,
+  15px,
+  padding-bottom,
+  18px,
+  padding-top,
+  10px
+);
+
+/*=================================================== SUB PAGINA BENEFICIOS Y SUB PAGINA CONVENIOS ==================================================*/
+
+@include template_titulos_parrafos(
+  55px,
+  #fff,
+  center,
+  $fuente,
+  italic,
+  900,
+  ".titulo-beneficios",
+  3,
+  null,
+  "text-transform",
+  uppercase,
+  line-height,
+  55px,
+  margin-top,
+  75px
+);
+@include template_titulos_parrafos(
+  45px,
+  #daff42,
+  center,
+  $fuente,
+  italic,
+  900,
+  ".titulo-b2",
+  2,
+  null,
+  text-transform,
+  uppercase,
+  line-height,
+  55px
+);
+@include template_titulos_parrafos(
+  15px,
+  #fff,
+  center,
+  $fuente,
+  italic,
+  bold,
+  ".beneficios",
+  7,
+  null,
+  width,
+  100%,
+  border-bottom-width,
+  3px,
+  border-bottom-style,
+  solid,
+  border-bottom-color,
+  #fff,
+  text-transform,
+  uppercase,
+  line-height,
+  35px,
+  margin-bottom,
+  15px
+);
+
+/*=================================================== SUB PAGINAS CONTACTO HORARIOS PREGUNTAS-FRECUENTES PREINSCRIPCION QUIENES-SOMOS ==================================================*/
+
+@include template_titulos_parrafos(
+  55px,
+  #fff,
+  center,
+  $fuente,
+  normal,
+  900,
+  ".titulo-sec22",
+  4,
+  null,
+  margin-top,
+  80px,
+  text-transform,
+  uppercase,
+  line-height,
+  55px,
+  margin-bottom,
+  80px
+);

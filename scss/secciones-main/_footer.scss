@@ -1,0 +1,19 @@
+/*====================================== FOOTER ======================================*/
+.footer-seccion {
+  min-height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  background: #000000;
+}
+
+.titulo-f > a {
+  @extend .titulo-f;
+}
+
+a {
+  &:link,
+  &:visited,
+  &:active {
+    text-decoration: none;
+  }
+}

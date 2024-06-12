@@ -1,0 +1,219 @@
+
+@mixin template_titulos_parrafos(
+  $fuente_size,
+  $fuente_color,
+  $texto_align,
+  $fuente_family,
+  $fuente_style,
+  $fuente_weight,
+  $clase,
+  $hayExtras,
+  $pseudo: null,
+  $propiedad1: null,
+  $valor_propiedad1: null,
+  $propiedad2: null,
+  $valor_propiedad2: null,
+  $propiedad3: null,
+  $valor_propiedad3: null,
+  $propiedad4: null,
+  $valor_propiedad4: null,
+  $propiedad5: null,
+  $valor_propiedad5: null,
+  $propiedad6: null,
+  $valor_propiedad6: null,
+  $propiedad7: null,
+  $valor_propiedad7: null,
+  $propiedad8: null,
+  $valor_propiedad8: null
+) {
+  @if $hayExtras == 0 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+    }
+  } @else if $hayExtras == 1 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+    }
+  } @else if $hayExtras == 2 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+    }
+  } @else if $hayExtras == 3 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+    }
+  } @else if $hayExtras == 4 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+      #{$propiedad4}: $valor_propiedad4;
+    }
+  } @else if $hayExtras == 7 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+      #{$propiedad4}: $valor_propiedad4;
+      #{$propiedad5}: $valor_propiedad5;
+      #{$propiedad6}: $valor_propiedad6;
+      #{$propiedad7}: $valor_propiedad7;
+    }
+  } @else if $hayExtras == 8 {
+    #{$clase} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+      #{$propiedad4}: $valor_propiedad4;
+      #{$propiedad5}: $valor_propiedad5;
+      #{$propiedad6}: $valor_propiedad6;
+      #{$propiedad7}: $valor_propiedad7;
+      #{$propiedad8}: $valor_propiedad8;
+    }
+  } @else {
+    #{$clase}:#{$pseudo} {
+      font-size: $fuente_size;
+      color: $fuente_color;
+      text-align: $texto_align;
+      font-family: $fuente_family;
+      font-style: $fuente_style;
+      font-weight: $fuente_weight;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+      #{$propiedad3}: $valor_propiedad3;
+      #{$propiedad4}: $valor_propiedad4;
+    }
+  }
+}
+
+
+@mixin toTop_toTopcel(
+  $position,
+  $bottom,
+  $right,
+  $cursor,
+  $display,
+  $z_index,
+  $id,
+  $hayExtras
+) {
+  @if $hayExtras {
+    #{$id} {
+      position: $position;
+      bottom: $bottom;
+      right: $right;
+      cursor: $cursor;
+      display: $display;
+      z-index: $z_index;
+      width: 100%;
+    }
+  } @else {
+    #{$id} {
+      position: $position;
+      bottom: $bottom;
+      right: $right;
+      cursor: $cursor;
+      display: $display;
+      z-index: $z_index;
+    }
+  }
+}
+
+
+@mixin btn_principal(
+  $color_b,
+  $background_color,
+  $border_color,
+  $clase,
+  $hayExtras,
+  $pseudo: null,
+  $propiedad1: null,
+  $propiedad2: null,
+  $valor_propiedad1: null,
+  $valor_propiedad2: null
+) {
+  @if $hayExtras == 0 {
+    #{$clase} {
+      color: $color_b;
+      background-color: $background_color;
+      border-color: $border_color;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+    }
+  } @else if $hayExtras == 1 {
+    #{$clase}:#{$pseudo} {
+      color: $color_b;
+      background-color: $background_color;
+      border-color: $border_color;
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+    }
+  } @else {
+    #{$clase}:#{$pseudo} {
+      color: $color_b;
+      background-color: $background_color;
+      border-color: $border_color;
+    }
+  }
+}
+
+
+@mixin media-query(
+  $max_width,
+  $propiedad1:null,
+  $propiedad2:null,
+  $valor_propiedad1:null,
+  $valor_propiedad2:null,
+  $clase
+) {
+  @media (max-width: $max_width) {
+    #{$clase} {
+      #{$propiedad1}: $valor_propiedad1;
+      #{$propiedad2}: $valor_propiedad2;
+    }
+  }
+}

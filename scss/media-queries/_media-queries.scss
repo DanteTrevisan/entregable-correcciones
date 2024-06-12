@@ -1,0 +1,69 @@
+@import "../mixins/mixins.scss";
+
+/*================================================== MEDIA QUERY DE GALERIA ==================================== */
+@include media-query(
+  600px,
+  "font-size",
+  "line-height",
+  35px,
+  35px,
+  ".titulo-sec2"
+);
+@include media-query(
+  600px,
+  "font-size",
+  "line-height",
+  35px,
+  35px,
+  ".titulo-sec22"
+);
+
+/* ############################################################ MEDIA QUERY SECCION 2 ############################################################################# */
+@include media-query(
+  900px,
+  "background-image",
+  "height",
+  url("../imagenes/instalaciones_01.jpg"),
+  400px,
+  ".imagen2-seccion"
+);
+
+/* ############################################################ MEDIA QUERY COMUNES BENEFICIOS Y CONVENIOS ############################################################################# */
+@include media-query(
+  600px,
+  "font-size",
+  "line-height",
+  40px,
+  50px,
+  ".titulo-beneficios"
+);
+@include media-query(
+  600px,
+  "font-size",
+  "line-height",
+  30px,
+  40px,
+  ".titulo-b2"
+);
+@include media-query(
+  600px,
+  "font-size",
+  "line-height",
+  12px,
+  23px,
+  ".beneficios"
+);
+
+/* ############################################################ MEDIA QUERY BENEFICIOS-TITULO-B ############################################################################# */
+@include media-query(
+  600px,
+  "font-size",
+  "line-height",
+  30px,
+  40px,
+  ".titulo-b"
+);
+
+
+
+
