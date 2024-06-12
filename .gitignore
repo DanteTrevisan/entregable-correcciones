@@ -1,3 +1,3 @@
 # Ignora carpeta de configuracion de vscode
-/ .vscode
-/ .estilos copy.css
+.vscode/
+estilos copy.css
