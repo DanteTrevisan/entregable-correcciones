@@ -38,10 +38,10 @@ Html
 4. No hay uso de main (los uso pero igual no estaria entendiendo)
 5. Hay rutas de <a> dentro de los archivos dentro de "html" que son incorrectas. Si los archivos estan dentro de una misma carpeta no es correcto dar un paso para atras para ir a la misma carpeta
 6. Los elementos de formulario deben estar dentro de la etiqueta form
-No debe haber un h4 en un archivo si antes en el mismo no hay un h3. Lo mismo pasa con todos los headings, antes debe estar el anterior
-No estas usando correctamente la etiqueta table
+7. No debe haber un h4 en un archivo si antes en el mismo no hay un h3. Lo mismo pasa con todos los headings, antes debe estar el anterior (corregido)
+8. No estas usando correctamente la etiqueta table
 Tene en cuenta que podes reducir la cantidad de archivos html, para el proyecto solo necesitas 5 html.
-alt de las imagenes deben ser textos descriptivos de cada imagen
+9. alt de las imagenes deben ser textos descriptivos de cada imagen
 Css
 
 No debe haber estilos en el html
