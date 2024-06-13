@@ -1,3 +1,6 @@
+================================================================= PRIMERA DEVOLUCION ===============================================================================
+
+
 Repositorio
 La organizacion es correcta
 
@@ -24,4 +27,22 @@ Adaptación responsive
 
 La consigna esta cumplida
 Tene en cuetna que todos los textos y todo el contenido deberia poder visualizarse comodamente en todos los dispositivos. Los horarios en la version mobile no son legibles
+
+================================================================= SEGUNDA DEVOLUCION ===============================================================================
+
+Html
+
+1. Los atributos de las etiquetas no deben tabularse (no entiendo)
+2. Button no es para insertar links que luzcan como botones, podes hacer eso solo con a (corregido)
+3. Hay tabulaciones desprolijas (no entiendo)
+4. No hay uso de main (los uso pero igual no estaria entendiendo)
+5. Hay rutas de <a> dentro de los archivos dentro de "html" que son incorrectas. Si los archivos estan dentro de una misma carpeta no es correcto dar un paso para atras para ir a la misma carpeta
+6. Los elementos de formulario deben estar dentro de la etiqueta form
+No debe haber un h4 en un archivo si antes en el mismo no hay un h3. Lo mismo pasa con todos los headings, antes debe estar el anterior
+No estas usando correctamente la etiqueta table
+Tene en cuenta que podes reducir la cantidad de archivos html, para el proyecto solo necesitas 5 html.
+alt de las imagenes deben ser textos descriptivos de cada imagen
+Css
+
+No debe haber estilos en el html
 
