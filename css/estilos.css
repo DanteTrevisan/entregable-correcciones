@@ -424,6 +424,27 @@
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
+td > ul {
+  list-style-type: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.divtabla {
+  background-color: #bfd74f;
+}
+
+.divhorarios {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
 /*================================================== MEDIA QUERY DE GALERIA ==================================== */
 @media (max-width: 600px) {
   .titulo-sec2 {
