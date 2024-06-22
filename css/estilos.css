@@ -203,23 +203,21 @@
   width: 120px;
 }
 
-/*@media (min-width: 767px) {
+@media (min-width: 767px) {
   .navbar-collapse {
-      padding: 0;
+    padding: 0;
   }
-}*/
-/*@media(min-width: 767px){
-  .navbar{
+}
+@media (min-width: 767px) {
+  .navbar {
     padding: 20px 0;
-    background: #0000008a;
-    transition-behavior: normal, normal;
-    transition-duration: .5s, .5s;
+    background: rgba(0, 0, 0, 0.5411764706);
+    transition-duration: 0.5s, 0.5s;
     transition-timing-function: ease-in-out, ease-in-out;
     transition-delay: 0s, 0s;
-    transition-property: background, padding ;
-
+    transition-property: background, padding;
   }
-}*/
+}
 /* ############################################################ BOTON FLOTANTE Y BOTONES DE SECCIONES CONTACTO Y PREINSCRIPCION ############################################################################# */
 .contenedor-flotante {
   display: block;

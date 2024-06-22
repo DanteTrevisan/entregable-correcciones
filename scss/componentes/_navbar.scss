@@ -60,23 +60,22 @@
   width: 120px;
 }
 
-/*@media (min-width: 767px) {
+@media (min-width: 767px) {
   .navbar-collapse {
       padding: 0;
   }
-}*/
+}
 
 
 
-/*@media(min-width: 767px){
+@media(min-width: 767px){
   .navbar{
     padding: 20px 0;
     background: #0000008a;
-    transition-behavior: normal, normal;
     transition-duration: .5s, .5s;
     transition-timing-function: ease-in-out, ease-in-out;
     transition-delay: 0s, 0s;
     transition-property: background, padding ;
 
   }
-}*/
+}
